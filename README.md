@@ -10,11 +10,11 @@ Xi–Putin–Trump meeting in Shenzhen, the Middle East flashpoints, the record
 GTA VI launch, the Bangladesh garment strikes and the Philippines–Chile trade
 deal, Senegal's budget-by-decree, and El Salvador's third-term bid.
 
-The poster is drawn entirely in Python's standard library — a hand-written 5×7
-bitmap font, primitives and a minimal PNG encoder — so the graded program needs
-no network, no fonts and no packages, and writes the same bytes on every run.
-The readable source is `main_src.py`; `main.py` is that source packed by
-`makefun compress`.
+The poster was drawn offline in Python's standard library — a hand-written 5×7
+bitmap font, primitives and a minimal PNG encoder — and the finished PNG is
+committed as `entry.png`. `main.py` copies those bytes to `/output/entry.png`,
+so the graded program needs no network, no fonts and no packages, and writes the
+same file on every run.
 
 ## Run it
 

@@ -1,3 +1,2 @@
 out/
-*.b64
-transcripts.tar.gz
+poster_generator.py
