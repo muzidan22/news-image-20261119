@@ -209,7 +209,7 @@ def header(canvas):
 
 
 def footer(canvas):
-    """Small provenance line at the bottom edge."""
+    """Small provenance line at the bottom edge, so the date is never cropped."""
     draw_text(canvas, 48, SIZE - 40, "SOURCES: WIRE REPORTS OF 19 NOVEMBER 2026", 2, FOOT)
 
 
